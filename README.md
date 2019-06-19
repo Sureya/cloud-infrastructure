@@ -59,7 +59,7 @@ Once you have all the details, your initial local code would look something like
 [Repo Link](https://github.com/Sureya/data-engineering-101/blob/master/chapter2/version0.py)
 
 
-```
+```python
 import pyowm
 import time
 import json

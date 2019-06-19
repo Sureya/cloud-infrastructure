@@ -99,7 +99,7 @@ If you execute the code with your API key, you can see that it fetches the data 
 [Repo Link](https://github.com/Sureya/data-engineering-101/blob/master/chapter2/version1.py)
 
 
-```
+```python
 # in-built
 import time
 import logging
@@ -148,9 +148,6 @@ if __name__ == '__main__':
 
 
 We can see that we have changed quite a few things, mainly we have 
-
-
-
 *   Removed all print statements
 *   Made the application modular
 *   Gave all the inputs as command line arguments
@@ -180,7 +177,7 @@ SQL script to create this table would be as follows,
 [Repo Link](https://github.com/Sureya/data-engineering-101/blob/master/chapter2/ddl.sql)
 
 
-```
+```sql
 CREATE SCHEMA IF NOT EXISTS weather;
 
 CREATE TABLE IF NOT EXISTS daily_weather
@@ -203,7 +200,7 @@ Now that we have created a simple schema to store our data, we need to alter our
 [Repo Link](https://github.com/Sureya/data-engineering-101/blob/master/chapter2/version2.py)
 
 
-```
+```python
 # in-built
 import time
 import logging
@@ -318,8 +315,6 @@ Assuming we have a working application ready to deploy, we need a minimum of 3 s
 
 # Tech Stack
 
-
-
 *   Cloud - [AWS](https://aws.amazon.com/premiumsupport/knowledge-center/create-and-activate-aws-account/) 
 *   Application - Python3.6
 *   OS - [ubuntu](https://www.cheatography.com/davechild/cheat-sheets/linux-command-line/) 
@@ -337,16 +332,12 @@ Assuming we have a working application ready to deploy, we need a minimum of 3 s
 
 Reference Links
 
-
-
 *   [RDS](https://aws.amazon.com/rds/postgresql/)
 *   [EC2](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html)
 *   [Bash](https://www.howtoforge.com/tutorial/linux-shell-scripting-lessons/)
 
 
 ### 3.1.1 - Create RDS database
-
-
 
 *   Select RDS service and click create a database
 *   Select PostgreSQL from engine option
@@ -364,8 +355,6 @@ Reference Links
 
 
 ### 3.1.2 - Create an EC2 instance
-
-
 
 *   Proceed to EC2 dashboard 
 *   Quick guide for launching EC2 instance
@@ -385,7 +374,7 @@ Reference Links
 	Before we can begin to package our Python application we need to install system packages, to get our server to the desired configuration. Since we will be running Python application which is downloaded from Github, let's install the packages needed for that.
 
 
-```
+```bash
 # Install required system-level packages
 yes | sudo apt-get install git
 yes | sudo add-apt-repository ppa:jonathonf/python-3.6
@@ -402,7 +391,7 @@ yes | sudo apt-get install python3-venv
 After installing system packages we can start packaging our application by creating virtualenv and installing python dependencies into the env.
 
 
-```
+```bash
 #!/usr/bin/env bash
 
 # Export all the constant values as environment variables

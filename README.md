@@ -165,13 +165,6 @@ For this application use case,  this would be an acceptable clean code to be con
 	To get started we need to design a simple relational table. Very broadly speaking, the process of deciding how many tables we need, how many what are the columns in each table, and type of data each column is going to hold, is called Data Modeling. For this example, to keep things simple we will be storing our data in a single table as follows,
 
 
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Data-Engineer0.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Data-Engineer0.png "image_tooltip")
-
-
 SQL script to create this table would be as follows,
 
 [Repo Link](https://github.com/Sureya/data-engineering-101/blob/master/chapter2/ddl.sql)

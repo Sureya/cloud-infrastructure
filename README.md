@@ -1,31 +1,4 @@
 
-
-# Chapter - 1
-
-
-#  Introduction 
-
-If you are a self-taught Data Engineer, then you know how hard and time consuming it is. To become a professional Data Engineer you would need to have knowledge on several topics like 
-
-
-
-*   Learning how to code
-*   Learning how to design the infrastructure for your application
-*   Data Modelling 
-*   Writing SQL to extract the information you need from the raw data
-*   Process the large volume of data in the most efficient way.
-*   And more...
-
-For absolute new beginners, it can be daunting to organise all these vast topics, form a plan and learn it enough to start working on real-time projects. That is exactly what we will be tackling through this series of chapters. This series of chapters aim to cover from the very basics of data engineering from writing a simple production level application, optimising it and consider different ways of deploying an application on the cloud.
-
-We will be following “learn by implementing”  approach. I will try and keep the theory to a minimum, as there are so many other blogs where we can find the same information. We will mainly focus on writing code, considerations and assumptions on different stages of development and what it means when we say “production ready” code.
-
-
-# Scope of the tutorial 
-
-This is not an extensive tutorial on all technologies, there are loads of good tutorials available to get started with each technology, Instead of covering in-depth topics in each technology,  we would be focusing on how to design the application requirements and how to put different technologies together to solve the problem. 
-
-
 # Chapter - 2
 
 [Repo Link](https://github.com/Sureya/data-engineering-101/tree/master/chapter2) 
